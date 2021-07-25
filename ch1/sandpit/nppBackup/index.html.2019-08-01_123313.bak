@@ -1,0 +1,30 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<meta charset "utf-8">        <!-- <meta charset "utf-89"> -->
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<!-- You could link to a CSS here: <link rel="stylesheet" href="style.css" /> -->
+
+<body>
+You can even comment out things in <!-- the middle of --> a sentence.
+
+<h2>A Level-2 Header!</h2>
+
+<div id="my-chart-wrapper" class="chart-holder dev">
+    <div id="my-chart" class="bar chart">
+        this is a placeholder, with parent #my-chart-wrapper
+    </div>
+</div>
+
+
+<div id="viz">
+    <p>We might eventually put a viz here.</p>
+    
+    <p>For now, you could look at this image instead
+    <img src="/favO.png" id="my favicon pic"> which is just the Favicon.
+    </p>
+</div>
+
+<script type="text/javascript" src="p24_processStudentData.js" async></script>
+
+</body>

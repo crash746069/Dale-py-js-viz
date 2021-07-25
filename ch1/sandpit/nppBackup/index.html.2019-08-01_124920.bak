@@ -1,0 +1,64 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<meta charset "utf-8">        <!-- <meta charset "utf-89"> -->
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="style_ch4.css" /> 
+
+<body>
+You can even comment out things in <!-- the middle of --> a sentence.
+
+
+<div id="my-chart-wrapper" class="chart-holder dev">
+    <div id="my-chart" class="bar chart">
+        this is a placeholder, with parent #my-chart-wrapper
+    </div>
+</div>
+
+<ol>
+    <li>First item</li>
+    <li>Second item</li>
+</ol>
+
+<table id="chart-data">
+    <tr>
+        <th>Name</th>
+        <th>Category</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Albert Einstein</td>
+        <td>Physics</td>
+        <td>Switzerland</td>
+    </tr>
+    <tr>
+        <td>Linus Pauling</td>
+        <td>Peace</td>
+        <td>USA</td>
+    </tr>
+</table>
+
+<div id="viz">
+    <p>We might eventually put a viz here.</p>
+
+
+    <div id="lead">
+        <h2>A Level-2 Header!</h2>
+        <p>Some enlarged text for  <span class="alert">emphasis</span>.
+    </div>
+    <p>and some normal sized text with our chosen font</p>
+
+    <div id="chart-holder"
+        <svg></svg>
+    </div>
+</div>
+
+<div id="substitute haha favico">
+    <p>For now, you could look at this image instead
+    <img src="/favO.png" id="my favicon pic"> which is just the Favicon.
+    </p>
+</div>
+
+<script type="text/javascript" src="p24_processStudentData.js" async></script>
+
+</body>

@@ -1,0 +1,13 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<meta charset "utf-89">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<div id='viz'>
+    <p>We might eventually put a viz here.</p>
+    <p>For now, you could look at this image instead
+    <img src="/favO.png" id="my favicon pic"> which is just the Favicon.
+</div>
+
+<script type="text/javascript" src="p24_processStudentData.js" async></script>

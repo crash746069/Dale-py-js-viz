@@ -1,0 +1,16 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<meta charset "utf-8">        <!-- <meta charset "utf-89"> -->
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<!-- a few CSS style rules: -->
+<style>
+    #chart circle {fill:red}
+</style>
+
+<body>
+    <svg id="chart"></svg>
+
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="script_d3example.js"></script>
+</body>

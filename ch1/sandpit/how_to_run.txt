@@ -1,0 +1,37 @@
+go to python powershell console:
+	python -m http.server 9000
+	(python3 -m http.server 9000)
+
+runs a server on port 9000, using index.html
+
+
+then open up a chrome browser, direct to "http://localhost:9000/"
+
+this should render the index.html file in the current directory
+
+
+To look under the hood, use Chrome Developer Tools: 
+	Console: 	CTRL-SHIFT-J on Windows, CTRL-Option-J on Mac
+	Elements tab:	CTRL-SHIFT-C
+		You can interactively play with element styling in the Chrome Elements Tab !!!!!!!!!!!!1
+			Especially useful when trying to get Scalable Vector Graphics to work !!!!
+		Great way to explore the structure of a web page, finding out how the different elements are positioned
+		Seeing how the pros apply CSS styles is a good way to learn some useful tricks
+	
+	Sources tab:
+		You can look at any files that contribute to the displayed page (HTML / CSS / JS / etc)
+		You can place a breakpoint in code, load page, and see the call stack plus any vars (global or scoped)
+		Parametric breakpoints (you can set conditions for them to trigger)
+			handy if you want to catch and step thru a particular configuration
+		on break, you can step in, out, over functions, etc.
+		This Sources tab is fantastic and it is the main reason why Kyran rarely turns to console logging for debugging JS
+	Other tools:
+		ChromeDevTools keeps updating with new stuff
+			memory / profiling / monitor NW downloads / test out different form factors
+		But 99% of your time likely in ELements and Sources tabs
+
+	or click in to any of these through "More Tools" > "Developer Tools" >
+	CTRL-SHIFT-I opens DevTools to whatever panel you used last
+
+
+

@@ -1,0 +1,9 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<meta charset "utf-89">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<div id='viz'></div>
+
+<script type="text/javascript" src="p24_processStudentData.js" async></script>

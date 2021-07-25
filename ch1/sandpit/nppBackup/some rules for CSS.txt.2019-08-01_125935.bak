@@ -1,0 +1,7 @@
+Understanding CSS precedence rules is key to successfully applying styles. In a nutshell, the roder is:
+
+    1) !Important
+            after CSS property trumps everything
+    2)  The more specific the better
+            (i.e. ids override classes)
+    3)  The order of declaration: last (most recent) declaration wins, subject to conditions (1) and (2)

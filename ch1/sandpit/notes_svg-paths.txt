@@ -1,0 +1,9 @@
+SVG Paths:
+
+sitepoint.com/closer-look-svg-path-data/
+w3.org/TR/SVG/paths.html
+http://tutorials.jenkov.com/svg/path-element.html
+
+
+
+order is important. elements added later take precedence

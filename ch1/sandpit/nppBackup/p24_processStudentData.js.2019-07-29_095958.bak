@@ -1,0 +1,18 @@
+// processStudentData
+// A (note deliberate and valid inconsistency in keys: some quoted and some unquoted
+
+var studentData = [
+    {name: 'Bob', id:0, 'scores':[68,75,76,81]},
+
+
+
+
+
+var data = [3,7,2,9,1,11];
+var sum = 0;
+data.forEach(function(d){
+    sum += d;
+});
+
+console.log('My sum = ' + sum);
+// should output sum is 33
